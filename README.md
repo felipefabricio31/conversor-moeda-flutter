@@ -1,16 +1,16 @@
-# convert_moeda
+# Conversor de Moeda
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/29135156/81971272-35c84700-95f7-11ea-845d-c8732181bb00.gif" width="100%" heigth="auto">
 
-## Getting Started
+Descrição do Projeto
 
-This project is a starting point for a Flutter application.
+## Introdução
 
-A few resources to get you started if this is your first Flutter project:
+Alguns recursos para você começar se este for seu primeiro projeto Flutter:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para obter ajuda sobre como iniciar o Flutter, consulte nosso
+[online documentation](https://flutter.dev/docs), que oferece tutoriais,
+amostras, orientações sobre desenvolvimento móvel e uma referência completa da API.
