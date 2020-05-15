@@ -5,8 +5,8 @@
 Este projeto nós desenvolvemos um app que realiza conversções entre real, dolar e euro.
 A finalidade deste projeto é apresentar diversos recursos do Flutter, entre eles a reutilização dos Widgets, através de uma função genérica podemos passar parâmetros e utilizar a função para TextFields semelhantes ou outros controles.
 
+<h4>Exemplo de uma função genérica para TextField:</h4>
 <pre>
-<p> Exemplo de uma função genérica para TextField:</p>
     <code>
         Widget buildTextField(String label, String prefix, TextEditingController controller, Function funcao) {
             return TextField(
@@ -24,8 +24,8 @@ A finalidade deste projeto é apresentar diversos recursos do Flutter, entre ele
     </code>
 </pre>
 
+<h4>Como chamar a função:</h4>
 <pre>
-    <p>Como chamar a função:</p>
     <code>
         buildTextField("Reais", "R\$", realController, _realChanged),
     </code>
