@@ -151,6 +151,6 @@ Widget buildTextField(String label, String prefix,
     style: TextStyle(color: Colors.amber, fontSize: 25.0),
     controller: controller,
     onChanged: funcao,
-    keyboardType: TextInputType.number,
+    keyboardType: TextInputType.numberWithOptions(decimal: true),
   );
 }
