@@ -6,6 +6,7 @@ Este projeto nós desenvolvemos um app que realiza conversções entre real, dol
 A finalidade deste projeto é apresentar diversos recursos do Flutter, entre eles a reutilização dos Widgets, através de uma função genérica podemos passar parâmetros e utilizar a função para TextFields semelhantes ou outros controles.
 
 <pre>
+<p> Exemplo de uma função genérica para TextField:</p>
     <code>
         Widget buildTextField(String label, String prefix, TextEditingController controller, Function funcao) {
             return TextField(
@@ -24,6 +25,7 @@ A finalidade deste projeto é apresentar diversos recursos do Flutter, entre ele
 </pre>
 
 <pre>
+    <p>Como chamar a função:</p>
     <code>
         buildTextField("Reais", "R\$", realController, _realChanged),
     </code>
